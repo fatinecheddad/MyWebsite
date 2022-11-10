@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contact Me!</title>
+  </head>
+  <body>
+    <div class="contact-me2">
+      <h3>Contact me!</h3>
+
+      <strong>Phone number</strong>
+      : +33766664339
+      <br />
+      <strong>email</strong>
+      : fatinecheddad01@gmail.com
+      <br />
+
+      <p>
+        You can leave me a message in the form below and I'll contact you as
+        soon as possible!
+      </p>
+      <form
+        action="mailto:fatinecheddad01@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <!--action specifie ou aller une fois qu'on clique sur submit et où les données seront envoyées, enctype specifie que ce qui est dans textarea c'est juste du text-->
+        <table>
+          <tr>
+            <td><label>Name and surname: </label></td>
+            <td><input type="text" name="YourName" /></td>
+          </tr>
+          <tr>
+            <td><label>Email: </label></td>
+            <td><input type="email" name="YourEmail" /></td>
+          </tr>
+          <tr>
+            <td><label>Your message: </label></td>
+            <td>
+              <textarea rows="10" columns="30" name="YourMessage"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
